@@ -90,3 +90,22 @@ getPage.onclick = ()=>{
         }
     }
 }
+
+
+// const fnAjax = (url, callback)=>{
+//     const request = new XMLHttpRequest()
+//     request.open('get', url)
+//     request.onreadystatechange = ()=>{
+//         if(request.readyState === 4 && request.status >= 200 && request.status<300) {
+//             const res = request.response
+//             callback(res)
+//         }
+//     }
+//     request.send()    
+// }
+
+// getJS.onclick = ()=>{fnAjax('./2.js', (res)=>{
+//     const script = document.createElement('script')
+//     script.innerHTML = res
+//     document.body.appendChild(script)
+// })}
